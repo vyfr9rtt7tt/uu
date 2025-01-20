@@ -1,0 +1,77 @@
+
+  
+ 
+  @media (max-width: 1024px) {
+    .contacts {
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  
+    .filter {
+      justify-content: center;
+    }
+  
+    footer input {
+      width: 100%;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    header {
+      text-align: center;
+    }
+  
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contacts {
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+  
+    .filter button {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  
+    .card p {
+      font-size: 14px;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  
+    footer input {
+      width: 100%;
+    }
+  
+    footer form {
+      flex-direction: column;
+    }
+  
+    footer button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }

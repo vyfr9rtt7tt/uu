@@ -1,0 +1,185 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito-<uniquifier> {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  header {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .container span1{
+    color :#4D5AE5;
+  }
+  .container span2{
+    color: #000000;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  
+  .contacts {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .contacts::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #007BFF;
+    left: 0;
+    bottom: -2px;
+    transition: width 0.3s ease;
+  }
+  
+  .contacts:hover {
+    color: #007BFF;
+  }
+  
+  .contacts:hover::after {
+    width: 100%;
+  }
+  .portfolio {
+    padding: 20px;
+    
+  }
+  
+  .filter {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .filter :hover{
+   background-color:  #4D5AE5;
+  }
+  filter span{
+    color: blue;
+  }
+  .filter button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card p {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  
+  
+  footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .footer .branding {
+    color: #e9e9e9;
+  }
+  .footer .branding h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  .footer .branding p {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+  .footer .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .footer .subscribe {
+    display: flex;
+    align-items: center;
+  }
+.branding span3 {
+  color:#4D5AE5;
+}
+  
+  .footer .subscribe input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .footer .subscribe button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .footer .subscribe button:hover {
+    background-color: #9b9b9b;
+  }
